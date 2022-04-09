@@ -1,0 +1,34 @@
+arquivo.seek(line_number) -> places the cursor at the start of the given line.
+
+with open('arquivo1.txt', 'a') as arquivo:
+	for linha in arquivo:
+		linha = linha.strip()
+		print(linha)
+
+
+str.strip
+str.count
+str.split
+list.count
+str.join
+f-strings
+
+
+FileExistsError
+FileNotFoundError
+PermissionError
+IsADirectoryError
+OSError
+
+os.mkdir(dir_path)
+os.scandir(dir_path) -> list<os.DirEntry>
+	os.DirEntry
+		.Name
+		.Path
+		.is_dir()
+		.is_file()
+		.start()
+
+os.remove(path)
+os.rmdir(dir_path)
+os.rename(path, new_name)

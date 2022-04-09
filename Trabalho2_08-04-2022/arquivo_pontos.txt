@@ -1,0 +1,4 @@
+Ponto1 3,4
+Ponto2 5,9
+Ponto3 2,10
+Ponto4 420,69
